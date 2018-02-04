@@ -196,13 +196,13 @@ a:link, a:visited {
 }
 
 .two-col {
-  columns: 2;
-  margin-top: 40px;
-}
-
-.two-col {
-  h3:first-child, h4:first-child {
-    margin-top: 0;
+  @media only screen and (min-width : 900px) {
+    columns: 2;
+    margin-top: 40px;
+    
+    h3:first-child, h4:first-child {
+      margin-top: 0;
+    }
   }
 }
 
