@@ -1,0 +1,19 @@
+$purple: #4A306D;
+$pink: #9B4F96;
+$gold: #E2CDA1;
+$grey: #4E5166;
+$gunmetal: #2B2D42;
+
+$purple-50: scale-color($purple, $lightness: 50%);
+$pink-50: scale-color($pink, $lightness: 50%);
+$gold-50: scale-color($gold, $lightness: 50%);
+$grey-50: scale-color($grey, $lightness: 50%);
+$gunmetal-50: scale-color($gunmetal, $lightness: 50%);
+
+$purple-25: scale-color($purple, $lightness: 75%);
+$pink-25: scale-color($pink, $lightness: 75%);
+$gold-25: scale-color($gold, $lightness: 75%);
+$grey-25: scale-color($grey, $lightness: 75%);
+$gunmetal-25: scale-color($gunmetal, $lightness: 75%);
+
+$white: scale-color($grey-25, $lightness: 75%);
